@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introducir el No. DNI" />
+
     <EditText
         android:id="@+id/txtdni"
         android:layout_width="match_parent"
@@ -18,7 +24,7 @@
         android:id="@+id/btnGetDni"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Calcular letra dni" />
 
     <TextView
         android:id="@+id/txtletra"
